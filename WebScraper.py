@@ -1,5 +1,6 @@
 from lxml import html
 import requests
+
 '''
 The lxml bits are not my own, however, the Scraper function is
 This was written in part with a website that had a tutorial on
@@ -35,7 +36,12 @@ def Scraper(language, word):
 
 	#prints the words you searched for
 	print(words[1]) 
+#This doesn't quite work, for some reason
+#f.write is called an int and not a string
+#it also only prints exactly what it's told to
+#not the word and the defentions
 
-Scraper('enzh/', 'dog')
+f = open('Chinese.txt', 'w')
 
-
+Scraper(f.write('enzh/'), f.write('dog'))
+f.close()
