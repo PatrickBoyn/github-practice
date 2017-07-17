@@ -36,12 +36,7 @@ def Scraper(language, word):
 
 	#prints the words you searched for
 	print(words[1]) 
-#This doesn't quite work, for some reason
-#f.write is called an int and not a string
-#it also only prints exactly what it's told to
-#not the word and the defentions
 
-f = open('Chinese.txt', 'w')
+#This works, but doesn't print to a file yet 
+Scraper('enzh/', 'dog')
 
-Scraper(f.write('enzh/'), f.write('dog'))
-f.close()
