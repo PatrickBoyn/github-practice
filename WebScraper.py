@@ -41,9 +41,9 @@ def Scraper(language, word):
 
 
 def Printer():
-	test = Scraper('enzh/', 'dog')
+	words = Scraper('enzh/', 'dog')
 	f = open(r'C:\Users\dakil\Desktop\Chinese.txt', 'a')
-	f.write(test)
+	f.write(words)
 	f.close()
 
 Printer()
