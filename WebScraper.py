@@ -46,6 +46,8 @@ def scraper(language, word):
 	def Print():
 		scraper()
 
+Print()
+
 
 
 
