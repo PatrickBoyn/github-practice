@@ -14,7 +14,7 @@ text file when adding words to something like a flash card file, you have to wri
 and over, and this seemed like a far simpler thing to do since I had some programming knowledge
 '''
 
-def Scraper(language, word):
+def scraper(language, word):
 	#Will be the way you enter the language and the word
 	#you are looking for. en, then the abbreviation of the language
 	#prints the non english language first however if you want it to do it
@@ -38,14 +38,15 @@ def Scraper(language, word):
 	#prints the words you searched for
 	print(words[1]) 
 
-
-
-def Printer():
-	words = Scraper('enzh/', 'dog')
+	words = scraper('enzh/', 'dog')
 	f = open(r'C:\Users\dakil\Desktop\Chinese.txt', 'a')
 	f.write(words)
 	f.close()
 
-Printer()
+	def Print():
+		scraper()
+
+
+
 
 
