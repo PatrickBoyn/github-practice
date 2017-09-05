@@ -40,7 +40,7 @@ def scraper(language, word):
 
 	
 def printer():
-	words = scraper('enzh/', 'cat')
+	words = scraper('enzh/', 'cow')
 	f = open(r'C:\Users\dakil\Desktop\Chinese.txt', 'a')
 	f.write(words)
 	f.close()
