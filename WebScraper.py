@@ -1,6 +1,6 @@
 from lxml import html
 import requests
-import os
+
 
 '''
 The lxml bits are not my own, however, the Scraper function is
@@ -45,4 +45,5 @@ def Scraper(language, word):
 		f.close()
 
 Scraper('enzh/', 'dog')
+Printer()
 
