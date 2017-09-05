@@ -38,17 +38,14 @@ def scraper(language, word):
 	#prints the words you searched for
 	print(words[1]) 
 
-	words = scraper('enzh/', 'dog')
+	
+def printer():
+	words = scraper('enzh/', 'cat')
 	f = open(r'C:\Users\dakil\Desktop\Chinese.txt', 'a')
 	f.write(words)
 	f.close()
 
-	def Print():
-		scraper()
-
-Print()
-
-
+printer()
 
 
 
