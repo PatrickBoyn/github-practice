@@ -45,8 +45,6 @@ def printer():
 	f.write(works)
 	f.close()
 
-	return works
-
 try:
 	printer()
 except Exception as e:
