@@ -47,4 +47,12 @@ def printer():
 
 	return works
 
-printer()
+try:
+	printer()
+except Exception as e:
+	print(' ')
+	print('-----')
+	print('ERROR')
+	print('-----')
+	print(' ')
+	print(e)
