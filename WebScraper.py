@@ -41,7 +41,7 @@ def scraper(language, word):
 	
 def printer():
 	works = scraper("enzh/", "cow")
-	f = open('C:\\Users\\dakil\\Desktop\\Chinese.txt', 'a')
+	f = open(r'C:\Users\dakil\Desktop\Chinese.txt', 'a')
 	f.write(works)
 	f.close()
 
