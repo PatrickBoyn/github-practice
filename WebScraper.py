@@ -38,15 +38,20 @@ def scraper(language, word):
 	#prints the words you searched for
 	print(words[1]) 
 
-	
-def printer():
 	works = scraper("enzh/", "cow")
 	f = open(r'C:\Users\dakil\Desktop\Chinese.txt', 'a')
 	f.write(works)
 	f.close()
 
+	
+# def printer():
+# 	works = scraper("enzh/", "cow")
+# 	f = open(r'C:\Users\dakil\Desktop\Chinese.txt', 'a')
+# 	f.write(works)
+	# f.close()
+
 try:
-	print(dir(printer()))
+	scraper("enzh/", "cow")
 except Exception as e:
 	print(' ')
 	print('-----')
