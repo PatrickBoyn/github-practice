@@ -46,7 +46,7 @@ def printer():
 	f.close()
 
 try:
-	printer()
+	print(dir(printer()))
 except Exception as e:
 	print(' ')
 	print('-----')
