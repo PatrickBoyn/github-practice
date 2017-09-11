@@ -24,7 +24,8 @@ def scraper(language, word):
 	#prints the words you searched for
 	print(words[1]) 
 
-def printer():
+# A standard file opener
+def printer(): 
  	works = scraper("enzh/", "cow")
  	f = open(r'C:\Users\dakil\Desktop\Chinese.txt', 'a')
  	f.write(works)
