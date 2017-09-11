@@ -3,6 +3,8 @@ import requests
 
 
 def scraper(language, word):
+	# Obviously stores the language and the word, in this particular website
+	# it is the very last two slashes of the website
 	language
 	word
 
@@ -22,8 +24,6 @@ def scraper(language, word):
 	#prints the words you searched for
 	print(words[1]) 
 
-
-	
 def printer():
  	works = scraper("enzh/", "cow")
  	f = open(r'C:\Users\dakil\Desktop\Chinese.txt', 'a')
